@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*, html {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px 40px 100px;
+}
+
+nav .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 16px;
+    width: 330px;
+    margin-right: 100px;
+}
+
+nav .nav-items .nav-item a{
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #80af78;
+    text-decoration: underline;
+}
+
+nav .nav-items .nav-item.active a{
+    color: #4E6C50;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #AA8B56;
+}
+
+.second-color_brand-name {
+    color: #4E6C50;
+}
+
+.icon-map {
+    width: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left : 100px;
+    padding-bottom: 15px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    width: 70%;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hero-text p {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    width: 50%;
+    color: #BCBCBC;
+}
+
+.text-plants-hero {
+    color: #4E6C50;
+}
+
+.text-pengkolan-hero {
+    color: #AA8B56;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #91C788;
+    transition: 0.2s;
+    width: 183px;
+    height: 37px;
+    border-radius: 10px;
+}
+
+.hero-button:hover {
+    background-color: #80af78;
+}
+
+.hero-button .text-button {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.hero-icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hero-icons .icon {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.icon p {
+    width: auto;
+    margin-left: 3px;
+    color: #000;
+}
+
+.hero-image {
+    width: 50%;
+    height: 80vh;
+}
+
+.hero-image-1 {
+    position: absolute;
+    width: 315.96px;
+    z-index: 1;
+    bottom: 0;
+    left: 846.04px;
+}
+
+.hero-image-2 {
+    position: absolute;
+    width: 315.96px;
+    bottom: 15px;
+    left: 762px;
+}
+
+.benefits-photo-section {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.benefits-photo-section img {
+    width: 33.3%;
+}
+
+#plants, #messages {
+    padding-top: 20px;
+    border-radius: 50px;
+    padding-right: 100px;
+    padding-left : 100px;
+}
+
+.title-article {
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.plants-section {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.card-plant {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 480px;
+    background-color: #fcfcfc;
+    border-radius: 200px;
+    margin: auto;
+}
+
+.image-card-plant {
+    display: flex;
+    justify-content: center;
+    background-color: #E4F9E1;
+    width: 220px;
+    border-radius: 200px;
+    margin-top: 24px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.description h2 {
+    font-size: 16px;
+}
+
+.description p {
+    font-size: 12px;
+}
+
+.description a {
+    font-size: 14px;
+}
+
+.messages-section {
+    padding: 30px;
+}
+
+.card-message {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 1028px;
+    height: 200px;
+    margin: 21px;
+    border-radius: 8px;
+}   
+
+.card-message .photo img {
+    width: 287px;
+}
+
+.card-message .message {
+    padding: 70px 30px;
+}
+
+.card-message .message .name {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card-message .message p {
+    font-size: 16px;
+    color: #666666;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 53px 90px;
+    background-color: #E4F9E1;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo img {
+    width: 150px;
+    margin: 5px;
+}
+
+.logo p {
+    color: #004166;
+}
+
+.logo-ict p {
+    text-align: right;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list li a {
+    color: #000;
+}
+
+.list-smk {
+    text-align: right;
+}
